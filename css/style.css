@@ -33,6 +33,7 @@ ul {
 .view-hide {
   display: none;
 }
+
 /* ===============
     hero-section
 ================== */
@@ -148,10 +149,13 @@ header {
   font-size: 20px;
   font-weight: 500;
   color: var(--bg-color);
+  transition: all 0.3s linear;
 }
+.main-lft ul li a:hover,
 .main-lft ul li a:focus {
   background-color: var(--btn-color);
   color: #fff;
+  border-radius: 10px;
 }
 .main-right {
   width: calc(100% - 23%);
