@@ -190,8 +190,7 @@ header {
   line-height: 27px;
   margin: 10px 0;
 }
-.feature-items .items-ftr {
-}
+.feature-items .items-ftr {display: flex;gap: 20px;}
 
 /* ------------
  footer-wrapper
